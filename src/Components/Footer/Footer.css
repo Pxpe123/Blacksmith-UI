@@ -1,0 +1,34 @@
+.footer-main {
+  border-top: 2px solid var(--accent-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-buttons {
+  margin-top: 2%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-button {
+  margin: 0 10px;
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+.footer-button:hover {
+  color: var(--accent-color-opacity);
+}
+
+.button-text {
+  display: none;
+}
+
+.footer-info {
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-color);
+}

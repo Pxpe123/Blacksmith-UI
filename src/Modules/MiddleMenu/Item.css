@@ -1,0 +1,142 @@
+.Item-Inner-Container {
+  width: 100%;
+  height: 100%;
+}
+
+.Item-Header {
+  width: 100%;
+  height: 20%;
+  font-size: 38px;
+  text-wrap: nowrap;
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  color: #f39c12;
+  align-items: center;
+  font-family: "Jaini Purva", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Item-Type {
+  width: 100%;
+  height: 10%;
+  margin-top: -30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jaini Purva", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.Item-Image {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Item-Description {
+  letter-spacing: 2px;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+  font-family: "Jaini Purva", serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  margin: -10px 5%;
+}
+
+.Item-Image img {
+  position: absolute;
+  object-fit: contain;
+}
+
+.Item-Border {
+  z-index: 1;
+  max-height: 35%;
+}
+
+.Item-Inner-Image {
+  z-index: 2;
+  max-width: 30%;
+}
+
+.Uncommon-Rarity {
+  color: #28a745;
+  text-shadow: 0 0 5px rgba(40, 167, 69, 0.7), 0 0 10px rgba(40, 167, 69, 0.7),
+    0 0 15px rgba(40, 167, 69, 0.7);
+}
+
+.Rare-Rarity {
+  color: #007bff;
+  text-shadow: 0 0 5px rgba(0, 123, 255, 0.7), 0 0 10px rgba(0, 123, 255, 0.7),
+    0 0 15px rgba(0, 123, 255, 0.7);
+}
+
+.Epic-Rarity {
+  color: #9b4dca;
+  text-shadow: 0 0 5px rgba(155, 77, 202, 0.7), 0 0 10px rgba(155, 77, 202, 0.7),
+    0 0 15px rgba(155, 77, 202, 0.7);
+}
+
+.Legendary-Rarity {
+  color: #f39c12;
+  text-shadow: 0 0 5px rgba(243, 156, 18, 0.7), 0 0 10px rgba(243, 156, 18, 0.7),
+    0 0 15px rgba(243, 156, 18, 0.7);
+}
+
+.Item-Stats {
+  display: grid;
+  gap: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  margin: 0px 0%;
+  bottom: 0px;
+  height: 150px;
+}
+
+.Stats-Grid-1 {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.Stats-Grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.Stats-Grid-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.Stats-Grid-3 > :nth-child(3) {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.Stats-Grid-4 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+.Item-Stats:not(.Stats-Grid-1):not(.Stats-Grid-2):not(.Stats-Grid-3):not(
+    .Stats-Grid-4
+  ) {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-items: center;
+}

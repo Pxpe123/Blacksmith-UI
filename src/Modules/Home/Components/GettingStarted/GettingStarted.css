@@ -1,0 +1,137 @@
+.GettingStarted-main {
+  background-color: var(--background-color);
+  border-top: 2px solid var(--accent-color);
+  width: 100%;
+}
+
+.GettingStarted-title {
+  font-size: 32px;
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.GettingStarted-steps-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.GettingStarted-steps-div {
+  width: 20%;
+  flex: 1;
+  height: 70vh;
+  margin: 3%;
+  border-radius: 15px;
+  border: 2px solid var(--accent-color);
+}
+
+.GettingStarted-steps-div h1 {
+  color: var(--text-color);
+  margin-top: 3%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.GettingStarted-steps-div h2 {
+  color: var(--text-color);
+  margin-top: 2%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.GettingStarted-steps-div p {
+  color: var(--text-color);
+  margin-top: 3%;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+.steam-button {
+  margin-top: 4%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #171a21;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.steam-button:hover {
+  background-color: #0f1115;
+}
+
+.steam-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+ul {
+  color: white;
+  margin-left: 20px;
+}
+
+li {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.status-green,
+.status-red {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status-green {
+  background-color: green;
+}
+
+.status-red {
+  background-color: red;
+}
+
+.server-Container {
+  display: flex;
+  justify-content: center;
+}
+
+.server-Container button {
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  height: 30%;
+}
+
+.server-Container Link {
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  height: 30%;
+}
+
+.server-master {
+  height: fit-content;
+}

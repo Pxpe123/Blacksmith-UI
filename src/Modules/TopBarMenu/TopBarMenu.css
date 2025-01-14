@@ -1,0 +1,39 @@
+.TB-Container {
+  width: 70%;
+  margin-left: 15%;
+  top: 7%;
+  position: absolute;
+}
+/* Remove background, borders, and add medieval styling */
+.TB-Button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 24px; /* Increase font size for better visibility */
+  cursor: pointer;
+  border: none;
+  background: none; /* No background */
+  color: #8d7300; /* Dark metallic-like color (e.g., steel) */
+  transition: color 0.3s, transform 0.2s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for a more medieval feel */
+}
+
+/* Hover effect to add more interaction */
+.TB-Button:hover {
+  color: #a59200; /* Lighter steel-like color */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Selected button has a slightly different metallic color */
+.TB-Button.selected {
+  color: #d4af37; /* Gold-like color for selected icon */
+  transform: scale(1.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Stronger shadow on selected item */
+}
+
+/* Button container is aligned horizontally */
+.Button-Container {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center;
+}

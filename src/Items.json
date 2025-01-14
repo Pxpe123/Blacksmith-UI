@@ -1,0 +1,786 @@
+{
+  "Armour": [
+    {
+      "Name": "Leather Gloves",
+      "Description": "Fingerless gloves made of rugged leather.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Leather": 10,
+        "Metal": 5
+      },
+      "Cost": 200,
+      "Stats": {
+        "Health": 25,
+        "Strength": 15,
+        "Durability": "25%",
+        "Weight": "2KG"
+      },
+      "Type": "Armour",
+      "Type2": "Gloves"
+    },
+    {
+      "Name": "Iron Chestplate",
+      "Description": "A sturdy chestplate forged from iron.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Iron": 20,
+        "Leather": 10
+      },
+      "Cost": 450,
+      "Stats": {
+        "Health": 50,
+        "Strength": 30,
+        "Durability": "40%",
+        "Weight": "5KG"
+      },
+      "Type": "Armour",
+      "Type2": "Chestplate"
+    },
+    {
+      "Name": "Epic Dragon Helm",
+      "Description": "A helmet crafted from the scales of a dragon.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Dragon Scales": 30,
+        "Iron": 15
+      },
+      "Cost": 800,
+      "Stats": {
+        "Health": 70,
+        "Strength": 40,
+        "Durability": "50%",
+        "Weight": "3KG"
+      },
+      "Type": "Armour",
+      "Type2": "Helmet"
+    },
+    {
+      "Name": "Legendary Plate Armor",
+      "Description": "A full plate armor set known for its unmatched durability.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Mythril": 40,
+        "Leather": 20,
+        "Gold": 15
+      },
+      "Cost": 1500,
+      "Stats": {
+        "Health": 100,
+        "Strength": 50,
+        "Durability": "60%",
+        "Weight": "8KG"
+      },
+      "Type": "Armour",
+      "Type2": "Plate Armor"
+    },
+    {
+      "Name": "Steel Boots",
+      "Description": "Heavy steel boots that provide protection and stability.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Steel": 15,
+        "Leather": 5
+      },
+      "Cost": 300,
+      "Stats": {
+        "Health": 30,
+        "Strength": 20,
+        "Durability": "35%",
+        "Weight": "4KG"
+      },
+      "Type": "Armour",
+      "Type2": "Boots"
+    },
+    {
+      "Name": "Dragon Scale Armor",
+      "Description": "Armor made from the scales of an ancient dragon.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Dragon Scales": 50,
+        "Gold": 20
+      },
+      "Cost": 1200,
+      "Stats": {
+        "Health": 120,
+        "Strength": 80,
+        "Durability": "70%",
+        "Weight": "10KG"
+      },
+      "Type": "Armour",
+      "Type2": "Plate Armor"
+    },
+    {
+      "Name": "Shadow Cloak",
+      "Description": "A cloak that grants stealth and speed.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Shadow Silk": 25,
+        "Leather": 10
+      },
+      "Cost": 600,
+      "Stats": {
+        "Health": 20,
+        "Strength": 10,
+        "Durability": "40%",
+        "Weight": "1KG"
+      },
+      "Type": "Armour",
+      "Type2": "Cloak"
+    },
+    {
+      "Name": "Gold-Plated Shield",
+      "Description": "A shiny shield forged from gold, offering excellent protection.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Gold": 30,
+        "Steel": 15
+      },
+      "Cost": 500,
+      "Stats": {
+        "Health": 40,
+        "Strength": 25,
+        "Durability": "50%",
+        "Weight": "6KG"
+      },
+      "Type": "Armour",
+      "Type2": "Shield"
+    },
+    {
+      "Name": "Titanium Gauntlets",
+      "Description": "Gauntlets made from durable titanium for increased strength.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Titanium": 20,
+        "Leather": 10
+      },
+      "Cost": 700,
+      "Stats": {
+        "Health": 50,
+        "Strength": 40,
+        "Durability": "45%",
+        "Weight": "2KG"
+      },
+      "Type": "Armour",
+      "Type2": "Gauntlets"
+    },
+    {
+      "Name": "Frostbite Armor",
+      "Description": "An armor enchanted with the power of frost, reducing damage from fire.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Frost Crystals": 40,
+        "Iron": 30
+      },
+      "Cost": 1500,
+      "Stats": {
+        "Health": 100,
+        "Strength": 60,
+        "Durability": "60%",
+        "Weight": "7KG"
+      },
+      "Type": "Armour",
+      "Type2": "Plate Armor"
+    }
+  ],
+
+  "Magic": [
+    {
+      "Name": "Fireball Scroll",
+      "Description": "A magical scroll that casts a powerful fireball.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Mana Crystals": 5,
+        "Fire Essence": 3
+      },
+      "Cost": 150,
+      "Stats": {
+        "Magic": 30,
+        "Damage": 40,
+        "Durability": "30%",
+        "Weight": "0.1KG"
+      },
+      "Type": "Magic",
+      "Type2": "Scroll"
+    },
+    {
+      "Name": "Arcane Staff",
+      "Description": "A staff imbued with arcane energy that amplifies magic power.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Arcane Crystal": 15,
+        "Wood": 10,
+        "Mana Essence": 10
+      },
+      "Cost": 650,
+      "Stats": {
+        "Magic": 60,
+        "Damage": 80,
+        "Durability": "40%",
+        "Weight": "1.5KG"
+      },
+      "Type": "Magic",
+      "Type2": "Staff"
+    },
+    {
+      "Name": "Thunderstrike Tome",
+      "Description": "A tome that allows the reader to cast powerful lightning spells.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Lightning Essence": 20,
+        "Gold": 10,
+        "Mana Crystals": 20
+      },
+      "Cost": 1200,
+      "Stats": {
+        "Magic": 100,
+        "Damage": 120,
+        "Durability": "50%",
+        "Weight": "1KG"
+      },
+      "Type": "Magic",
+      "Type2": "Tome"
+    },
+    {
+      "Name": "Ice Staff",
+      "Description": "A staff that controls ice and freezes enemies.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Ice Crystals": 10,
+        "Wood": 8
+      },
+      "Cost": 500,
+      "Stats": {
+        "Magic": 50,
+        "Damage": 60,
+        "Durability": "40%",
+        "Weight": "1.2KG"
+      },
+      "Type": "Magic",
+      "Type2": "Staff"
+    },
+    {
+      "Name": "Healing Potion",
+      "Description": "Restores health over time.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Herbs": 5,
+        "Water": 2
+      },
+      "Cost": 50,
+      "Stats": {
+        "Health Restoration": "30",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.2KG"
+      },
+      "Type": "Potion",
+      "Type2": "Healing"
+    },
+    {
+      "Name": "Mana Potion",
+      "Description": "Restores mana for casting spells.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Mana Crystals": 5,
+        "Water": 2
+      },
+      "Cost": 100,
+      "Stats": {
+        "Mana Restoration": "50",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.2KG"
+      },
+      "Type": "Potion",
+      "Type2": "Mana"
+    },
+    {
+      "Name": "Elixir of Immortality",
+      "Description": "Grants temporary immortality for a short period.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Dragon's Blood": 20,
+        "Elven Herbs": 15,
+        "Phoenix Feather": 1
+      },
+      "Cost": 2000,
+      "Stats": {
+        "Health Restoration": "100%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.5KG"
+      },
+      "Type": "Potion",
+      "Type2": "Immortality"
+    }
+  ],
+  "Weapon": [
+    {
+      "Name": "Iron Sword",
+      "Description": "A simple iron sword with a sharp edge.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Iron": 15
+      },
+      "Cost": 100,
+      "Stats": {
+        "Attack": 30,
+        "Durability": "30%",
+        "Strength": 10,
+        "Weight": "1.5KG"
+      },
+      "Type": "Weapon",
+      "Type2": "Sword"
+    },
+    {
+      "Name": "Silver Mace",
+      "Description": "A heavy silver mace with great striking power.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Silver": 20,
+        "Iron": 10
+      },
+      "Cost": 350,
+      "Stats": {
+        "Attack": 50,
+        "Durability": "40%",
+        "Strength": 20,
+        "Weight": "3KG"
+      },
+      "Type": "Weapon",
+      "Type2": "Mace"
+    },
+    {
+      "Name": "Excalibur",
+      "Description": "The legendary sword of the king, imbued with ancient magic.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Mythril": 30,
+        "Gold": 15
+      },
+      "Cost": 1000,
+      "Stats": {
+        "Attack": 100,
+        "Durability": "50%",
+        "Strength": 50,
+        "Weight": "2.5KG"
+      },
+      "Type": "Weapon",
+      "Type2": "Sword"
+    },
+    {
+      "Name": "Crystal Bow",
+      "Description": "A powerful bow crafted from enchanted crystals.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Crystal Shards": 20,
+        "Wood": 10
+      },
+      "Cost": 800,
+      "Stats": {
+        "Attack": 70,
+        "Durability": "45%",
+        "Strength": 25,
+        "Weight": "1.3KG"
+      },
+      "Type": "Weapon",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Gold-Plated Spear",
+      "Description": "A spear forged with gold, lightweight and deadly.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Gold": 25,
+        "Iron": 15
+      },
+      "Cost": 500,
+      "Stats": {
+        "Attack": 60,
+        "Durability": "40%",
+        "Strength": 30,
+        "Weight": "2.5KG"
+      },
+      "Type": "Weapon",
+      "Type2": "Spear"
+    }
+  ],
+  "Archery": [
+    {
+      "Name": "Wooden Bow",
+      "Description": "A basic bow made of wood, simple but effective.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Wood": 15,
+        "String": 5
+      },
+      "Cost": 80,
+      "Stats": {
+        "Attack": 25,
+        "Durability": "20%",
+        "Strength": 10,
+        "Weight": "1KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Elven Longbow",
+      "Description": "A beautifully crafted longbow used by elves, known for its range.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Wood": 30,
+        "String": 10,
+        "Elven Magic Essence": 5
+      },
+      "Cost": 400,
+      "Stats": {
+        "Attack": 60,
+        "Durability": "35%",
+        "Strength": 15,
+        "Weight": "1.2KG"
+      },
+      "Type": "Archery",
+      "Type2": "Longbow"
+    },
+    {
+      "Name": "Dragon's Wrath Bow",
+      "Description": "A legendary bow imbued with the power of dragons.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Dragon Bone": 25,
+        "String": 10,
+        "Fire Essence": 15
+      },
+      "Cost": 800,
+      "Stats": {
+        "Attack": 90,
+        "Durability": "50%",
+        "Strength": 30,
+        "Weight": "1.5KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Silver Shortbow",
+      "Description": "A finely crafted shortbow made of silver, great for close-range combat.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Silver": 15,
+        "Wood": 10
+      },
+      "Cost": 350,
+      "Stats": {
+        "Attack": 45,
+        "Durability": "35%",
+        "Strength": 18,
+        "Weight": "1KG"
+      },
+      "Type": "Archery",
+      "Type2": "Shortbow"
+    },
+    {
+      "Name": "Hawkeye Crossbow",
+      "Description": "A crossbow built for extreme precision, favored by sharpshooters.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Wood": 25,
+        "Steel": 15,
+        "Elven Essence": 10
+      },
+      "Cost": 750,
+      "Stats": {
+        "Attack": 80,
+        "Durability": "45%",
+        "Strength": 35,
+        "Weight": "2KG"
+      },
+      "Type": "Archery",
+      "Type2": "Crossbow"
+    },
+    {
+      "Name": "Stormchaser Bow",
+      "Description": "A mystical bow that shoots arrows empowered by the storm.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Storm Essence": 30,
+        "Dragon Bone": 15,
+        "Wood": 10
+      },
+      "Cost": 1200,
+      "Stats": {
+        "Attack": 100,
+        "Durability": "55%",
+        "Strength": 50,
+        "Weight": "1.7KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Frostfire Longbow",
+      "Description": "A bow forged with both ice and fire magic, capable of shooting explosive arrows.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Fire Essence": 15,
+        "Ice Essence": 15,
+        "Wood": 20
+      },
+      "Cost": 900,
+      "Stats": {
+        "Attack": 85,
+        "Durability": "50%",
+        "Strength": 40,
+        "Weight": "1.4KG"
+      },
+      "Type": "Archery",
+      "Type2": "Longbow"
+    },
+    {
+      "Name": "Windstrider Bow",
+      "Description": "A lightweight bow crafted from the wood of a magical tree, known for its speed.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Wood": 30,
+        "String": 12,
+        "Wind Essence": 5
+      },
+      "Cost": 600,
+      "Stats": {
+        "Attack": 50,
+        "Durability": "40%",
+        "Strength": 20,
+        "Weight": "1KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Phoenix Feather Bow",
+      "Description": "A bow crafted from the feathers of a phoenix, shooting fiery arrows that explode on impact.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Phoenix Feathers": 10,
+        "Fire Essence": 25,
+        "Wood": 20
+      },
+      "Cost": 1500,
+      "Stats": {
+        "Attack": 120,
+        "Durability": "60%",
+        "Strength": 60,
+        "Weight": "1.6KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    },
+    {
+      "Name": "Darkwood Bow",
+      "Description": "A bow made from darkwood, known for its stealth and agility.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Darkwood": 25,
+        "Shadow Essence": 10
+      },
+      "Cost": 800,
+      "Stats": {
+        "Attack": 75,
+        "Durability": "50%",
+        "Strength": 35,
+        "Weight": "1.3KG"
+      },
+      "Type": "Archery",
+      "Type2": "Bow"
+    }
+  ],
+
+  "Potion": [
+    {
+      "Name": "Healing Potion",
+      "Description": "Restores health over time.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Herbs": 5,
+        "Water": 2
+      },
+      "Cost": 50,
+      "Stats": {
+        "Health Restoration": "30",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.2KG"
+      },
+      "Type": "Potion",
+      "Type2": "Healing"
+    },
+    {
+      "Name": "Mana Potion",
+      "Description": "Restores mana for casting spells.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Mana Crystals": 5,
+        "Water": 2
+      },
+      "Cost": 100,
+      "Stats": {
+        "Mana Restoration": "50",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.2KG"
+      },
+      "Type": "Potion",
+      "Type2": "Mana"
+    },
+    {
+      "Name": "Elixir of Immortality",
+      "Description": "Grants temporary immortality for a short period.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Dragon's Blood": 20,
+        "Elven Herbs": 15,
+        "Phoenix Feather": 1
+      },
+      "Cost": 2000,
+      "Stats": {
+        "Health Restoration": "100%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.5KG"
+      },
+      "Type": "Potion",
+      "Type2": "Immortality"
+    },
+    {
+      "Name": "Berserker Brew",
+      "Description": "Increases attack and strength for a short time.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Herbs": 10,
+        "Dragon's Blood": 5,
+        "Water": 3
+      },
+      "Cost": 350,
+      "Stats": {
+        "Attack Boost": "50%",
+        "Strength Boost": "50%",
+        "Durability": "N/A",
+        "Weight": "0.3KG"
+      },
+      "Type": "Potion",
+      "Type2": "Strength"
+    },
+    {
+      "Name": "Cleansing Elixir",
+      "Description": "Removes all debuffs and poisons from the body.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Elven Herbs": 20,
+        "Water": 5
+      },
+      "Cost": 250,
+      "Stats": {
+        "Debuff Removal": "All",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.4KG"
+      },
+      "Type": "Potion",
+      "Type2": "Cleansing"
+    },
+    {
+      "Name": "Phoenix Revival Elixir",
+      "Description": "Revives the user upon death with full health.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Phoenix Feather": 5,
+        "Elven Herbs": 10,
+        "Mana Crystals": 15
+      },
+      "Cost": 1000,
+      "Stats": {
+        "Health Restoration": "100%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.6KG"
+      },
+      "Type": "Potion",
+      "Type2": "Revival"
+    },
+    {
+      "Name": "Antidote Potion",
+      "Description": "Heals poison status and reduces poison damage over time.",
+      "Rarity": "Uncommon",
+      "Recipe": {
+        "Herbs": 8,
+        "Water": 3,
+        "Poison Essence": 2
+      },
+      "Cost": 150,
+      "Stats": {
+        "Poison Removal": "Complete",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.2KG"
+      },
+      "Type": "Potion",
+      "Type2": "Antidote"
+    },
+    {
+      "Name": "Speed Potion",
+      "Description": "Temporarily increases speed and agility.",
+      "Rarity": "Rare",
+      "Recipe": {
+        "Speed Herb": 5,
+        "Water": 2,
+        "Mana Crystals": 3
+      },
+      "Cost": 300,
+      "Stats": {
+        "Speed Boost": "30%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.3KG"
+      },
+      "Type": "Potion",
+      "Type2": "Speed"
+    },
+    {
+      "Name": "Potion of Frostbite",
+      "Description": "Increases resistance to cold and reduces ice damage.",
+      "Rarity": "Epic",
+      "Recipe": {
+        "Frost Essence": 10,
+        "Water": 5
+      },
+      "Cost": 500,
+      "Stats": {
+        "Cold Resistance": "50%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.3KG"
+      },
+      "Type": "Potion",
+      "Type2": "Frost"
+    },
+    {
+      "Name": "Vampiric Blood Potion",
+      "Description": "Grants the ability to heal by inflicting damage on enemies.",
+      "Rarity": "Legendary",
+      "Recipe": {
+        "Vampire's Blood": 5,
+        "Herbs": 10,
+        "Water": 3
+      },
+      "Cost": 1200,
+      "Stats": {
+        "Life Steal": "30%",
+        "Strength": 0,
+        "Durability": "N/A",
+        "Weight": "0.4KG"
+      },
+      "Type": "Potion",
+      "Type2": "Vampiric"
+    }
+  ]
+}

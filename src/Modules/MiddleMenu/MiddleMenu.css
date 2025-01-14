@@ -1,0 +1,29 @@
+.MM-Container {
+  width: 400px;
+  height: 611px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: calc(50% - 305px);
+}
+
+.Item-Container {
+  width: 100%;
+  height: 80%;
+  background-image: url("./../../Assets/Div-Background-Mid.png");
+  background-size: stretch;
+  background-repeat: no-repeat;
+  font-family: "Jaini Purva", serif;
+  font-style: normal;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Craft-Container {
+  width: 400px;
+  height: 120px;
+  background-image: url("./../../Assets/CraftBTN.png");
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -5%;
+}

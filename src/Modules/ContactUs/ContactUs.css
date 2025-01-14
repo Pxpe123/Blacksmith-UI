@@ -1,0 +1,89 @@
+.contact-home {
+  min-height: 90%;
+}
+
+.ContactUs-Frame {
+  width: 60%;
+  margin: 3% auto;
+  padding: 20px;
+  background-color: #333; /* Dark background */
+  border: 2px solid #555; /* Darker border color */
+  border-radius: 15px;
+}
+
+.Contact-Title-Frame {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; /* White text color */
+}
+
+.Contact-Blurb {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ccc; /* Light gray text color */
+}
+
+.Form-Main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-Input-Div,
+.Form-TextArea-Div {
+  margin-bottom: 20px;
+}
+
+.Form-Input-Div input,
+.Form-TextArea-Div textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  color: #fff; /* White text color */
+  border: 1px solid #777; /* Medium dark border color */
+  border-radius: 5px;
+  background-color: #444; /* Darker background for inputs */
+  transition: border-color 0.3s ease;
+}
+
+.Form-Input-Div input:focus,
+.Form-TextArea-Div textarea:focus {
+  border-color: #ccc; /* Light gray border color on focus */
+  outline: none; /* Remove the default focus outline */
+}
+
+.Form-Input-Div label,
+.Form-TextArea-Div label {
+  font-size: 14px;
+  color: #ccc; /* Light gray text color */
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.Form-Input-Div input:focus + label,
+.Form-TextArea-Div textarea:focus + label,
+.Form-Input-Div input:valid + label,
+.Form-TextArea-Div textarea:valid + label {
+  font-size: 12px;
+  color: #ccc; /* Light gray color on focus or filled */
+  transform: translateY(-20px);
+}
+
+.submit-button {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #555; /* Darker button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #555; /* Darker border color */
+}
+
+.submit-button:hover {
+  background-color: #777; /* Darker button background color on hover */
+  border-color: #777; /* Darker border color on hover */
+}

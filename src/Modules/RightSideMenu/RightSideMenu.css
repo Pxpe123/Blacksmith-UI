@@ -1,0 +1,87 @@
+.RS-Container {
+  width: 400px;
+  height: 611px;
+  position: absolute;
+  right: 100px;
+  top: 160px;
+  transform: perspective(1920px) rotateY(-25deg);
+  transition: all ease-in-out 0.5s;
+  max-height: 611px;
+  overflow: hidden;
+}
+
+.Money-Container {
+  width: 60%;
+  height: 70px;
+  margin: 10px auto;
+  background-image: url("./../../Assets/Div-Background.png");
+  background-size: 100% 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Money-Container p {
+  font-size: 45px;
+  color: #f39c12;
+  text-align: center;
+  font-family: "Jaini Purva", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px 2px black;
+}
+
+.Recipe-Container {
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  background-image: url("./../../Assets/Div-Background-Mid.png");
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.Recipe-Container p {
+  font-size: 50px;
+  color: #f39c12;
+  text-align: center;
+  font-family: "Jaini Purva", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 5px;
+}
+
+.Ingredient {
+  width: 400px;
+  height: 100px;
+  margin-top: 20px;
+  background-image: url("./../../Assets/Ingredient.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Make this the reference point for absolute positioning */
+}
+
+.Ingredient-Img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 70px;
+  top: 25px; /* Adjusted to align properly within the container */
+  border-radius: 50%;
+  border: #f39c12 2px solid;
+}
+
+.Ingredient-Quantity {
+  position: relative;
+  font-size: 40px !important;
+  z-index: 2; /* Ensures this text appears on top */
+}
+
+.Ingredient-Name {
+  position: relative;
+  top: -20px;
+  font-size: 30px !important;
+  z-index: 1; /* Ensures name text appears below the quantity text */
+}

@@ -1,20 +1,7 @@
-/* vars.css or imports.css */
-* {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  transition: all 0.4s ease;
-  user-select: none;
-
-  color: var(--text-color);
-}
-
 body {
   margin: 0;
-<<<<<<< HEAD
   width: 100%;
   height: 100%;
-=======
->>>>>>> fdeb07d5818d5fe2b54202ca4861efdebe13c99c
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -28,28 +15,6 @@ code {
     monospace;
 }
 
-<<<<<<< HEAD
 * {
   user-select: none;
-=======
-::-webkit-scrollbar {
-  border-radius: 10px;
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  margin: 10px;
-  background-color: var(--background-color);
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: var(--accent-color);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-color-opacity);
-  transition: all 0.3s ease;
->>>>>>> fdeb07d5818d5fe2b54202ca4861efdebe13c99c
 }
